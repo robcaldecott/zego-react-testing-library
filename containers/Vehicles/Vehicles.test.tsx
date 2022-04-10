@@ -8,7 +8,7 @@ import {
   afterEach,
   afterAll,
 } from "vitest";
-import { screen, render, within, waitFor } from "@testing-library/react";
+import { screen, render, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { setupServer } from "msw/node";
 import { rest } from "msw";

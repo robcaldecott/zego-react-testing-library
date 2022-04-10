@@ -13,9 +13,9 @@ describe("Layout", () => {
         </ThemeProvider>
       </IntlProvider>
     );
-    // We should kave a header
+    // We should have a header
     expect(screen.getByRole("banner")).toHaveTextContent(/vehicle manager/i);
-    // We could have context
+    // We should have context
     expect(screen.getByText(/content/i)).toBeInTheDocument();
   });
 });

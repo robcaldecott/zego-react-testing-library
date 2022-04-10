@@ -11,6 +11,7 @@ interface AlertProps {
 
 export const Alert = ({ label, action, grow }: AlertProps) => (
   <div
+    role="alert"
     className={clsx(
       "flex space-x-2 items-center px-4 py-2 bg-red-100 dark:bg-red-800 min-w-0 rounded-md",
       action ? "pr-1" : "pr-4",

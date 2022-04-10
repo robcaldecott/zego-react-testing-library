@@ -21,6 +21,6 @@ describe("TextField", () => {
 
   test("error", () => {
     render(<TextField label="Label" error="Error" />);
-    expect(screen.getByText(/error/i)).toBeDefined();
+    expect(screen.getByText(/error/i)).toBeInTheDocument();
   });
 });
